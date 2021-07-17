@@ -1,0 +1,26 @@
+.floating-menu {
+  position: fixed;
+  right: 5vw;
+  bottom: 11vh;
+  height: 58px;
+  width: 58px;
+  background-image: url("../assets/waicon.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+  justify-content: center;
+  align-content: center;
+}
+.floating-menu-item span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.floating-menu-item {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  /* border: 2px dashed #f69c55; */
+}

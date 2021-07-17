@@ -1,0 +1,239 @@
+.submit-btn-container {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: auto 0px;
+  font-weight: bold;
+  color: #64184f;
+}
+.submit-btn {
+  background-color: #64184f;
+  border-width: 0px;
+  align-items: center;
+  display: flex;
+  aspect-ratio: 1;
+  border-radius: 38px;
+  font-size: calc(8px + 2vmin);
+  font-family: Overlock_Black;
+}
+.submit-btn-cancel {
+  border-color: #943a7b;
+  color: #943a7b;
+  background-color: #ffffff;
+  border-width: 1px;
+  align-items: center;
+  display: flex;
+  aspect-ratio: 1;
+  border-radius: 38px;
+}
+.submit-btn-panah {
+  background-color: #943a7b;
+}
+.submit-camera-btn {
+  position: absolute;
+  top: -10px;
+  left: 20%;
+  width: 38px;
+  background-color: #64184f;
+  border-width: 0px;
+  align-items: center;
+  display: flex;
+  aspect-ratio: 1;
+  justify-content: center;
+  border-radius: 38px;
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  -ms-border-radius: 50;
+  -o-border-radius: 50;
+}
+.back-btn-header {
+  background-color: transparent;
+  border-width: 0px;
+  align-items: center;
+  display: flex;
+}
+.register-btn {
+  padding-top: 50px;
+  font-size: calc(1.1vw + 2vmin);
+}
+.register-btn span {
+  font-weight: bold;
+  color: #64184f;
+  font-size: calc(1.2vw + 2vmin);
+  cursor: pointer;
+}
+.checkboxlabel {
+  color: #b1b1b1;
+  font-size: calc(1.1vw + 2vmin);
+  width: 100%;
+}
+.checkboxlabel span {
+  font-weight: bold;
+  color: #64184f;
+  font-size: calc(1.2vw + 2vmin);
+  cursor: pointer;
+}
+.profil-header {
+  background-color: #721758;
+  width: 100vw;
+  height: 150px;
+  background-image: url("../assets/Mask\ Group.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.profil-photo {
+  top: 75px;
+  width: fit-content;
+  display: flex;
+  left: 20px;
+  position: relative;
+}
+.preview {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.titleheader {
+  width: 90%;
+  text-align: left;
+  padding-top: 0.25rem;
+  padding-left: 0.4rem;
+  padding-bottom: 0px;
+  font-family: Overlock_Black;
+  font-size: calc(2vw + 2vmin);
+  color: #64184f;
+}
+.backtitleheader {
+  width: 100%;
+  font-family: Overlock_Black;
+}
+.header-journey-container-title {
+  font-family: Overlock_Reguler;
+  width: 65vw;
+  text-align: center;
+}
+.tabtitleheader {
+  width: 100%;
+  font-family: Overlock_Black;
+}
+.profil-photo-name-container {
+  display: inline;
+  width: fit-content;
+  height: auto;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.profil-photo-name-container label {
+  width: 100%;
+  margin-bottom: 0;
+  font-family: ITCAvantGradePro_MD;
+}
+.profil-photo-name-container label#description {
+  font-family: ITCAvantGradePro_BOOK;
+  font-size: 15px;
+}
+.profil-body {
+  padding: 20px;
+  padding-top: 5vh;
+  position: relative;
+}
+.profil-body .col {
+  background-color: transparent;
+}
+.profil-body div#title-profil {
+  padding-bottom: 20px;
+}
+.profil-body div#profil-title.col {
+  max-width: 20%;
+}
+
+.labelTitle {
+  color: #000000;
+  font-weight: 400;
+}
+.register-noFillBorder {
+  border-color: #dadada;
+  background-color: #f9f9f9;
+}
+.register-noFillBorder2 {
+  border-color: #943a7b;
+  background-color: #f9f9f9;
+}
+.register-FillBorder {
+  border-color: #943a7b;
+  background-color: #f9f9f9;
+}
+.register-FillBorder2 {
+  border-color: #943a7b;
+  background-color: #f9f9f9;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #721758;
+}
+.shadowProfil {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+/* modal */
+.register-submit-modal-title {
+  font-family: Overlock_Reguler;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 119.4%;
+  color: #370229;
+
+  text-align: center;
+}
+.register-submit-modal-body {
+  font-family: Overlock_Reguler;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 129.4%;
+  /* or 19px */
+  text-align: center;
+  color: #000000;
+}
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+  .backtitleheader {
+    padding-right: 15vw;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .backtitleheader {
+    padding-right: 15vw;
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 384px) {
+  .backtitleheader {
+    width: 86vw;
+  }
+  .profil-body div#profil-title.col {
+    max-width: 30%;
+  }
+}
+@media only screen and (max-width: 384px) and (min-height: 819px) {
+  .backtitleheader {
+    width: 87vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .backtitleheader {
+    width: 75vw;
+  }
+}

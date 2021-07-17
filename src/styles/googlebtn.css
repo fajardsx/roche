@@ -1,0 +1,234 @@
+.mainmenu {
+  font-size: calc(1vw + 2vmin);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.orline {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.2em;
+  margin: 10px 0 20px;
+}
+.orline span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+
+
+/* google */
+.g-sign-in-button {
+  margin: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  overflow: hidden;
+}
+
+.g-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+.g-sign-in-button:active {
+  background-color: #db4a39;
+  transition: background-color 0.2s;
+}
+
+.g-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+  /*border: 1px solid transparent;*/
+}
+
+.g-sign-in-button img {
+  width: 25px;
+  height: 25px;
+}
+
+.g-sign-in-button .logo-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-sign-in-button .text-container {
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.21px;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+}
+/* facebook */
+.f-sign-in-button {
+  margin: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  overflow: hidden;
+}
+
+.f-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+.f-sign-in-button:active {
+  background-color: #3367d6;
+  transition: background-color 0.2s;
+}
+
+.f-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+  /*border: 1px solid transparent;*/
+}
+
+.f-sign-in-button img {
+  width: 25px;
+  height: 25px;
+}
+
+.f-sign-in-button .logo-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-sign-in-button .text-container {
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.21px;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+}
+/* Email */
+.email-sign-in-button {
+  margin: 0px;
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background-color: #64184f;
+  color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+}
+.email-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+.email-sign-in-button:active {
+  background-color: #64184f;
+  transition: background-color 0.2s;
+}
+
+.email-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+  /*border: 1px solid transparent;*/
+}
+
+.email-sign-in-button img {
+  width: 23px;
+  height: 23px;
+  margin-bottom: 10px;
+}
+
+.email-sign-in-button .logo-wrapper {
+  padding: 15px;
+
+  width: 48px;
+  height: 100%;
+  border-radius: 1px;
+  display: inline-block;
+}
+
+.email-sign-in-button .text-container {
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.21px;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+}
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+  .backtitleheader {
+    padding-right: 15vw;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .backtitleheader {
+    padding-right: 15vw;
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 384px) {
+  .backtitleheader {
+    width: 78vw;
+  }
+  .profil-body div#profil-title.col {
+    max-width: 30%;
+  }
+}
+@media only screen and (max-width: 384px) and (max-height:819px) {
+  .backtitleheader {
+    width: 87vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .backtitleheader {
+    width: 75vw;
+  }
+}

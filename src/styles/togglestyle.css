@@ -1,0 +1,242 @@
+/* TOGGLE BAHASA */
+.wrg-toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.wrg-toggle-input {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.wrg-toggle-check,
+.wrg-toggle-uncheck {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  opacity: 0;
+  transition: opacity 0.23s ease;
+  -webkit-transition: opacity 0.23s ease;
+  -moz-transition: opacity 0.23s ease;
+  -ms-transition: opacity 0.23s ease;
+  -o-transition: opacity 0.23s ease;
+}
+.wrg-toggle-check {
+  left: 18px;
+}
+.wrg-toggle-uncheck {
+  opacity: 1;
+  right: 18px;
+}
+.wrg-toggle-uncheck span,
+.wrg-toggle-check span {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  position: relative;
+  width: 10px;
+  color: #8e8e8e;
+  font-size: 14px;
+}
+.wrg-toggle-container {
+  width: 86px;
+  height: 31px;
+  padding: 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background-color: #ebebeb;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.wrg-toggle-circle {
+  transition: all 0.5s cubic-bezier(0.31, 1, 0.31, 1) 0ms;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 45px;
+  height: 31px;
+  border: 0px solid #4d4d4d;
+  border-radius: 25px;
+  background-color: #943a7b;
+  -webkit-transition: all 0.5s cubic-bezier(0.31, 1, 0.31, 1) 0ms;
+  -moz-transition: all 0.5s cubic-bezier(0.31, 1, 0.31, 1) 0ms;
+  -ms-transition: all 0.5s cubic-bezier(0.31, 1, 0.31, 1) 0ms;
+  -o-transition: all 0.5s cubic-bezier(0.31, 1, 0.31, 1) 0ms;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  box-sizing: border-box;
+}
+.wrg-toggle-circle span {
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  height: 31px;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  font-size: 14px;
+}
+.wrg-toggle--checked .wrg-toggle-check {
+  opacity: 1;
+}
+.wrg-toggle--checked .wrg-toggle-uncheck {
+  opacity: 0;
+}
+.wrg-toggle--checked .wrg-toggle-circle {
+  left: 41px;
+}
+
+/* TOGGLE NOTIFICATION */
+.notification-toggle-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  position: sticky;
+  top: 7.6vh;
+  z-index: 100;
+  background-color: #ffffff;
+}
+.notif-toggle {
+  touch-action: pan-x;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.notif-toggle-input {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.notif-toggle-check,
+.notif-toggle-uncheck {
+  position: absolute;
+  width: 30vw;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  opacity: 0;
+  transition: opacity 0.23s ease;
+  -webkit-transition: opacity 0.23s ease;
+  -moz-transition: opacity 0.23s ease;
+  -ms-transition: opacity 0.23s ease;
+  -o-transition: opacity 0.23s ease;
+}
+.notif-toggle-check {
+  left: 18px;
+}
+.notif-toggle-uncheck {
+  opacity: 1;
+  right: 18px;
+}
+.notif-toggle-uncheck span,
+.notif-toggle-check span {
+  align-items: center;
+  display: flex;
+  height: 10px;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  color: #8e8e8e;
+  font-size: 14px;
+}
+.notif-toggle-container {
+  width: 80vw;
+  height: 43px;
+  padding: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #ebebeb;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.notif-toggle-circle {
+  transition: all 0.5s cubic-bezier(0.5, 1, 0.5, 1) 0ms;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 40vw;
+  height: 43px;
+  border: 0px solid #4d4d4d;
+  border-radius: 5px;
+  background-color: #943a7b;
+  -webkit-transition: all 0.5s cubic-bezier(0.5, 1, 0.5, 1) 0ms;
+  -moz-transition: all 0.5s cubic-bezier(0.5, 1, 0.5, 1) 0ms;
+  -ms-transition: all 0.5s cubic-bezier(0.5, 1, 0.5, 1) 0ms;
+  -o-transition: all 0.5s cubic-bezier(0.5, 1, 0.5, 1) 0ms;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-sizing: border-box;
+}
+.notif-toggle-circle span {
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  height: 43px;
+  justify-content: center;
+  position: relative;
+  width: auto;
+  font-size: 14px;
+}
+.notif-toggle--checked .notif-toggle-check {
+  opacity: 1;
+}
+.notif-toggle--checked .notif-toggle-uncheck {
+  opacity: 0;
+}
+.notif-toggle--checked .notif-toggle-circle {
+  left: 40vw;
+}
